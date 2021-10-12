@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Case Study</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <center>
+            <div id="images_div">
+                <img src="Ball.jpg">
+                <img src="Phone.png">
+                <img src="glass.jpg">
+                <img src="book.png">
+                <img src="dog.png">
+            </div>
+            
+            <div>
+            <h2>Results</h2>
+            <div id="Basketball">
+                <h2>Ball</h2>
+                <h4>Wolframe = BasketBall</h4>
+                <h4>Mobilenet = Ball </h4>
+            </div>
+            <div id="phone">
+                <h2>Phone</h2>
+                <h4>Wolframe = CellPhone</h4>
+                <h4>Mobilenet = SmartPhone</h4>
+            </div>
+            <div id="glass">
+                <h2>Glass</h2>
+                <h4>Wolframe = Glass</h4>
+                <h4>Mobilenet = Glass</h4>
+            </div>
+            <div id="book">
+                <h2>Book</h2>
+                <h4>Wolframe = Book</h4>
+                <h4>Mobilenet = Book</h4>
+            </div>
+            <div id="dog">
+                <h2>Dog</h2>
+                <h4>Wolframe = Dog</h4>
+                <h4>Mobilenet = Dog</h4>
+            </div>
+            
+            <h2></h2>
+        </center>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
